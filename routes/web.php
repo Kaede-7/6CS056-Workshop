@@ -1,5 +1,7 @@
 <?php
 
+// Web routes for the Workshop1 Laravel application (Students & Courses CRUD)
+
 use App\Models\Course;
 use App\Models\Student;
 use Illuminate\Http\Request;

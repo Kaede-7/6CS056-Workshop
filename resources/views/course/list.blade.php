@@ -1,3 +1,4 @@
+{{-- Course list page - displays all courses in a table --}}
 <!DOCTYPE html>
 <html>
 <head>

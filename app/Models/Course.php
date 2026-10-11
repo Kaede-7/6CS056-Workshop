@@ -1,5 +1,7 @@
 <?php
 
+// Eloquent model representing a course in the system
+
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;

@@ -1,3 +1,4 @@
+// Vite configuration for the Workshop1 Laravel application
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import { bunny } from 'laravel-vite-plugin/fonts';

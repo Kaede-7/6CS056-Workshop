@@ -1,5 +1,7 @@
 <?php
 
+// Default Laravel User model with authentication support
+
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;

@@ -1,5 +1,7 @@
 <?php
 
+// Artisan console commands for the Workshop1 application
+
 use Illuminate\Foundation\Inspiring;
 use Illuminate\Support\Facades\Artisan;
 

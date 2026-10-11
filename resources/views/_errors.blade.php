@@ -1,3 +1,4 @@
+{{-- Reusable error messages partial for form validation --}}
 @if($errors->any())
     <div style="color:#b00020">
         <h3>Please fix the following errors:</h3>

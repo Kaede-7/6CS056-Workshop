@@ -1,3 +1,4 @@
+{{-- Student list page - displays all students in a table --}}
 <!DOCTYPE html>
 <html>
 <head>
