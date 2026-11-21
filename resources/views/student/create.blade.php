@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Create Student</title>
-</head>
-<body>
+<x-layouts.app title="Create Student">
     <h1>Create Student</h1>
-
-    @include('_errors')
 
     <form action="{{ route('students.store') }}" method="POST">
         @csrf
-        @include('student._form')
-        <button type="submit">Create Student</button>
+        <x-students.form :student="new \App\Models\Student()" />
+        <button type="submit" class="btn">Create Student</button>
+        <a href="{{ route('students.index') }}">Cancel</a>
     </form>
-
-    <br>
-    <a href="{{ route('students.index') }}">Back to Students</a>
-</body>
-</html>
+</x-layouts.app>

@@ -8,18 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Course extends Model
 {
-    protected $fillable = [
-        'name',
-        'description',
-        'duration',
-        'fee',
-        'difficulty',
-        'is_active',
-    ];
+   protected $fillable = ['name', 'description', 'duration', 'fee', 'difficulty', 'is_active'];
 
-    protected $casts = [
-        'duration'  => 'integer',
-        'fee'       => 'decimal:2',
+protected function casts(): array
+{
+    return [
         'is_active' => 'boolean',
+        'fee' => 'decimal:2',
     ];
+}
+
+    
 }
